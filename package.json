@@ -1,0 +1,19 @@
+{
+  "name": "challenge-bravo",
+  "version": "1.0.0",
+  "description": "Currency Exchange API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThaynanMoreira/challenge-bravo.git"
+  },
+  "author": "thaynanmoreira.dev@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThaynanMoreira/challenge-bravo/issues"
+  },
+  "homepage": "https://github.com/ThaynanMoreira/challenge-bravo#readme"
+}
