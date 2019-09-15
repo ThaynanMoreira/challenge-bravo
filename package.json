@@ -5,6 +5,7 @@
   "main": "app/index.js",
   "scripts": {
     "start": "node app/index.js",
+    "test": "mocha './!(node_modules)/**/*.spec.js'",
     "test-integration": "mocha --opts test/integration/mocha.opts test/integration/integrations/*.js"
   },
   "repository": {
