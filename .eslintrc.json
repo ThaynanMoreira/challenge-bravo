@@ -28,6 +28,23 @@
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "no-var": "error",
+        "comma-dangle": [
+            "error",
+            "always-multiline"
+        ],
+        "prefer-const": "error",
+        "prefer-arrow-callback": "error",
+        "camelcase": "error",
+        "eqeqeq": "error",
+        "max-len": [
+            "error",
+            100
+        ],
+        "new-cap": "error",
+        "no-undef-init": "error",
+        "no-unused-labels": "error",
+        "no-eq-null": "error"
     }
 }
