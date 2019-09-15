@@ -2,8 +2,9 @@
   "name": "challenge-bravo",
   "version": "1.0.0",
   "description": "Currency Exchange API",
-  "main": "index.js",
+  "main": "app/index.js",
   "scripts": {
+    "start": "node app/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/ThaynanMoreira/challenge-bravo/issues"
   },
-  "homepage": "https://github.com/ThaynanMoreira/challenge-bravo#readme"
+  "homepage": "https://github.com/ThaynanMoreira/challenge-bravo#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1"
+  }
 }
