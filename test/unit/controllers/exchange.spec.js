@@ -1,7 +1,6 @@
-/* eslint-disable no-undef */
 const chai = require('chai');
 const mocha = require('mocha');
-mockery = require('mockery');
+const mockery = require('mockery');
 const expect = chai.expect;
 const describe = mocha.describe;
 const it = mocha.it;
