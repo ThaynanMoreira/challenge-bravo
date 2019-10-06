@@ -1,4 +1,13 @@
-/* eslint-disable no-undef */
+const supertest = require('supertest');
+const chai = require('chai');
+const mocha = require('mocha');
+const expect = chai.expect;
+const describe = mocha.describe;
+const it = mocha.it;
+const app = require('../../../app');
+const routes = require('../integrations/routes/exchange');
+
+const request = supertest(app);
 
 describe('Routes Index', () => {
     describe('Route GET /health', () => {
@@ -12,3 +21,5 @@ describe('Routes Index', () => {
         });
     });
 });
+
+routes.test();
