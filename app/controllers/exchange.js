@@ -42,5 +42,14 @@ module.exports = {
             );
         });
     },
+
+    isValidUserError: (error) => {
+        if(error === '\'From\' and \'To\' values are invalid' ||
+        error ===  '\'Amount\' value is invalid' ||
+        error ===  'Exchange not Allowed. See allowed exchanges in /allowed'){
+            return true;
+        }
+        return false;
+    },
 };
 
